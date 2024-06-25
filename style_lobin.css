@@ -22,3 +22,11 @@ div{
     background-color: rgb(102, 231, 231);
     margin: 8px;
 }
+@media(max-width:620px){
+    body{
+        background-image: url(img/CELULAR.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        }
+}
