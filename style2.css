@@ -1,0 +1,142 @@
+ .img1{
+    width: 100%;
+    height: auto;
+}
+.cabecalho{ 
+    background-color: #F5E5C0;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+#logo{
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+}
+
+.G1{
+
+    color: white;
+    width: 20%;
+    height: 430px;
+    padding: 20px;
+}
+#TG{
+    padding-bottom: 10px;
+}
+.Curiosidades{
+    color: white;
+    width: 20%;
+    height: 465px;
+    padding: 24px;
+}
+.CT{
+    padding-bottom: 10px;
+}
+#TP{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.corpo{
+    color: white;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+.h1,.h2,.h3{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+#T1{
+    padding-bottom:10px ;
+    margin-top: 17px;
+}
+#img3,#img4,#img5{
+    padding-top: 20px;
+    margin-right: 20px;
+}
+#T2,#T3{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+#p1,#P2,#P3{
+    margin: top 10px;
+}
+.txt,.txt2,.txt3{
+    max-width: 700px;
+}
+
+.rodape{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    background-color: #F5E5C0;
+    display: flex;
+    flex-direction: column;
+}
+#R1{
+    display: flex;
+    justify-content: center;
+} 
+
+@media (max-width: 620px) {
+    .cabecalho {
+        width: 100%;
+    }
+
+    .T1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .Curiosidades {
+        background-color: none;
+        color: white;
+        width: 100%;
+    }
+
+    .G1 {
+        display: initial;
+        border: none;
+        width: 100%;
+        color: white;
+        background-position-y: bottom;
+        padding: 10px;
+    }
+
+    #PE {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .h1, .h2, .h3 {
+        display: initial;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .corpo {
+        background-image: url(img/CELULAR.png);
+        background-size: cover;
+        background-position: center;
+        display: inline-block;
+        background-repeat: no-repeat;
+        padding: 5px;
+        width: 100%;
+    }
+
+    .txt, .txt2, .txt3 {
+        max-width: 100%;
+    }
+}

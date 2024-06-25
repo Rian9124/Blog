@@ -1,0 +1,139 @@
+.img1{
+    width: 100%;
+    height: auto;
+}
+.cabecalho{ 
+    background-color: #F5E5C0;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+.T1{
+    padding-left: 290px;
+}
+#logo{
+    height: 50px;
+    width: auto;
+    border-radius: 30px;
+}
+.G1{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    width: 25%;
+    height: 360px;
+    padding: 25px;
+}
+#TG{
+    padding-bottom: 10px;
+}
+.Curiosidades{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: white;
+    width: 20%;
+    height: 460px;
+    padding: 24px;
+}
+#TP{
+    display: flex;
+    justify-content: center;
+    padding-left: 25px;
+    color: white;
+}
+.corpo{
+    color: white;
+    display: flex;
+    background-image: url(img/Guerra.png);
+    background-size: cover;
+    background-position: center;
+}
+.h1,.h2,.h3{
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+#T1{
+    padding-bottom:10px ;
+    margin-top: 17px;
+}
+#img3,#img4,#img5{
+    margin-right: 20px;
+}
+#T2,#T3{
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+#p1,#P2,#P3{
+    margin: top 10px;
+}
+.txt,.txt2,.txt3{
+    max-width: 700px;
+}
+
+.rodape{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    background-color: #F5E5C0;
+    display: flex;
+    flex-direction: column;
+}
+#R1{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 850px) {
+    .cabecalho {
+        width: 100%;
+    }
+
+    .T1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 20px;
+        width: 100%;
+    }
+    #img3{
+        margin-top: 24px;
+        margin-right: 20px;
+    }
+    #img4{
+        margin-top: 24px;
+        margin-right: 20px;
+    }
+    #img5{
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .G1{
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        color: white;
+        width: 25%;
+        height: 740px;
+        padding: 25px;
+    }
+    .Curiosidades{
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        color: white;
+        width: 20%;
+        height: 640px;
+        padding: 24px;
+    }
+    .corpo {
+        background-image: url(img/CELULAR.png);
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

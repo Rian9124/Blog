@@ -1,0 +1,24 @@
+body{
+background-image: url(img/Guerra.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+}
+ h1{
+    color: white;
+    text-align: center;
+    padding-top: 13%;
+    padding-bottom: 15px;
+} 
+div{
+    display: flex;
+    justify-content: center;
+}
+.button1{  
+    background-color: rgb(102, 231, 231);
+    margin: 8px;
+}
+.button2{
+    background-color: rgb(102, 231, 231);
+    margin: 8px;
+}
